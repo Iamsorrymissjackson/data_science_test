@@ -18,4 +18,5 @@ while True:
         print("Choose bigger number")
     else:
         print(f"Correct, you found number {number} by {count} tries!!")
-        break
+        break #конец игры, выход из цикла
+    
