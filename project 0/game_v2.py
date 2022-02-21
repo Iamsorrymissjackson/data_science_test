@@ -40,6 +40,7 @@ def score_game(random_predict) -> int:
     score = int(np.mean(count_ls))
     print(f"Average tries for your programm is {score} tries")
     return(score)
+if __name__ == "__main__":
     
-score_game(random_predict)
+    score_game(random_predict)
         
